@@ -1,0 +1,31 @@
+body{
+    
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: rgb(226, 236, 255);
+}
+header{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    background: rgb(11, 0, 77);
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 15em;
+}
+.container {
+    text-align: center;
+}
+.button {
+    margin-top: 12vw;
+    text-align: center;
+    font-size: 2em;
+}

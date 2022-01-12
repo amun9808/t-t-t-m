@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+</head>
+<body>
+    <form action="home.html">
+        <input type="text" id="player1"/>
+        <input type="text" id="player2"/>
+        <input type="submit" value="Submit" onclick="passvalues(); "/>
+    </form>
+</body>
+<script>
+    function passvalues(){
+        var player1=document.getElementById("player1") .value;
+        localStorage.setItem("textvalue",player1);
+        return false;
+    }
+</script>
+</html>
